@@ -1,0 +1,130 @@
+.formulario {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url(https://images.unsplash.com/photo-1505043203398-7e4c111acbfa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGJhYnl8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+form {
+  width: 30rem;
+  height: 45rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: auto;
+  background-color: var(--secundario);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form label {
+  width: 90%;
+  font-weight: bold;
+  display: inline-block;
+  font-family: var(--fuentePrincipal);
+  color: var(--secundario);
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 90%;
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: var(--fuentePrincipal);
+}
+
+form input[type="submit"] {
+  width: 90%;
+  padding: 8px 16px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  color: var(--primario);
+  background-color: var(--blanco);
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  background-color: darkslategray;
+  transition-duration: 0.4s;
+  color: white;
+}
+
+textarea {
+  width: 90%;
+  height: 10rem;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: auto;
+  resize: none;
+  display: block;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.etiqueta3 {
+  margin: auto;
+  padding-left: 0.1rem;
+  padding-right: 1rem;
+  
+
+}
+
+.etiqueta4 {
+  padding-left: 0.1rem;
+   padding-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+  form {
+    width: 60rem;
+    height:40rem;  
+  }
+
+  .etiquetas1y2 {
+    margin: auto;
+    justify-content: center;
+  }
+
+  .etiquetas1,
+  .etiquetas2 {
+   display: flex;
+   flex-direction: column;
+   padding-top: 1rem;
+   padding-left: 2.5rem;
+   margin: auto;
+  }
+  
+
+ 
+  
+ .etiqueta3 {
+   margin: auto;
+   padding-left: 0.1rem;
+   padding-right: 1rem;
+ }
+
+.etiqueta4 {
+  padding-left: 0.1rem;
+   padding-right: 1rem;
+ }
+}
+
+
+  
+}
+
